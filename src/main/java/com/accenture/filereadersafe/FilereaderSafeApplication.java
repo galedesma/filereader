@@ -26,7 +26,7 @@ public class FilereaderSafeApplication {
 	@Autowired
 	private FileReaderService service;
 
-	private String filename = "casos_covid19.cvs";
+	private String filename = "casos_covid19.csv";
 
 	public static void main(String[] args) {
 		SpringApplication.run(FilereaderSafeApplication.class, args);
